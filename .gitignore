@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+
+# Secrets — use .env locally (never commit keys)
+.env
+.env.*
+!.env.example
+
+# —— Backend: donos (Rails) ——
+donos/.bundle/
+donos/log/
+donos/tmp/
+donos/storage/
+donos/vendor/bundle/
+donos/node_modules/
+donos/public/assets/
+donos/public/packs/
+donos/public/packs-test/
+donos/config/master.key
+donos/.byebug_history
+
+# —— Frontend: donos_front (CRA) ——
+donos_front/node_modules/
+donos_front/build/
+donos_front/coverage/
+donos_front/.env.local
+donos_front/.env.development.local
+donos_front/.env.test.local
+donos_front/.env.production.local
+donos_front/npm-debug.log*
+donos_front/yarn-debug.log*
+donos_front/yarn-error.log*
